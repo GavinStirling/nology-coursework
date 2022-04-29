@@ -1,0 +1,26 @@
+nav {
+    height: 10vh;
+    width: 100%;
+    background-color: $color-primary;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: $font-display;
+    color: $color-white;
+    font-size: 20px;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    background-color: $color-secondary;
+    font-family: $font-display;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-white;
+}
